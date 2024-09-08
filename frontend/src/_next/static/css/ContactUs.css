@@ -1,0 +1,23 @@
+.rezerv-btn {
+  --tw-text-opacity: 1;
+
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 3px solid rgb(252 163 17 / var(--tw-text-opacity));
+  background-color: white;
+  font-size: 14px;
+  height: 34px;
+  margin: auto 8px;
+  padding: 3px 5px;
+  cursor: pointer;
+  border-color: rgb(252 163 17 / var(--tw-text-opacity));
+  color: rgb(252 163 17 / var(--tw-text-opacity));
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgb(255 186 78 / var(--tw-text-opacity));
+    color: white;
+  }
+}

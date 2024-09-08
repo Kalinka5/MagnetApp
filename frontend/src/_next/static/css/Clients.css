@@ -1,0 +1,19 @@
+.hidden-content {
+  box-sizing: border-box;
+  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 2000ms ease-in-out;
+}
+
+.visible-content {
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  transition: height 2000ms ease-in-out;
+}
+
+.h1-center {
+  justify-content: center;
+}

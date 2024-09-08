@@ -1,0 +1,21 @@
+.hidden-content {
+  box-sizing: border-box;
+  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 2000ms ease-in-out;
+  opacity: 0;
+}
+
+.visible-content {
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  transition: height 2000ms ease-in-out;
+  opacity: 1;
+}
+
+.svg-rotate-180 {
+  rotate: 180deg;
+}
